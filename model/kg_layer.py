@@ -243,5 +243,6 @@ class CompGCN(nn.Module):
         x = drop2(x) if self.p.gcn_layer == 2 else x
 
         org_emb = torch.index_select(x, 0, org)
+        print()
 
         return org_emb, x
