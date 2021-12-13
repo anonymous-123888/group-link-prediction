@@ -244,6 +244,4 @@ class CompGCN(nn.Module):
 
         org_emb = torch.index_select(x, 0, org)
 
-        org_out = torch.matmul(org_emb,self.w_org)
-
-        return org_out, x
+        return org_emb, x
