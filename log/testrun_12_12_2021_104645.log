@@ -1,0 +1,290 @@
+2021-12-12 10:46:45,427 - testrun_12_12_2021_10:46:45 - [INFO] - {'store_name': 'testrun_12_12_2021_10:46:45', 'dataset': 'OrgPaper', 'restore': False, 'log_dir': './log/', 'config_dir': './config/', 'hypergraph_split': 0.5, 'batch_size': 128, 'gamma': 40.0, 'gpu': '0', 'max_epochs': 500, 'l2': 0.0, 'lr': 0.0001, 'lbl_smooth': 0.1, 'opn': 'mult', 'bias': False, 'num_workers': 0, 'seed': 41504, 'kg_model': 'compGCN', 'add_inverse': True, 'num_bases': -1, 'init_dim': 100, 'gcn_dim': 100, 'embed_dim': 100, 'gcn_layer': 1, 'dropout': 0.1, 'hid_drop': 0.2, 'hyper_model': 'HCHA', 'hyper_layers': 1, 'HyperAtt': False, 'hyper_init_dim': 100, 'hyper_hidden': 100}
+2021-12-12 10:47:04,425 - testrun_12_12_2021_10:46:45 - [INFO] - [E:0| 0]: Train Loss:0.69868,  Val MRR:0.0	testrun_12_12_2021_10:46:45
+2021-12-12 10:48:21,154 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:0]:  Training Loss:0.6955
+
+2021-12-12 10:48:32,694 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 0 valid]: MRR: 0.0018756
+2021-12-12 10:48:33,073 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 0]: Training Loss: 0.69552, Valid MRR: 0.0018756
+
+
+2021-12-12 10:48:34,120 - testrun_12_12_2021_10:46:45 - [INFO] - [E:1| 0]: Train Loss:0.69431,  Val MRR:0.0018756	testrun_12_12_2021_10:46:45
+2021-12-12 10:49:49,755 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:1]:  Training Loss:0.6916
+
+2021-12-12 10:50:01,030 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 1 valid]: MRR: 0.0034988
+2021-12-12 10:50:01,380 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 1]: Training Loss: 0.6916, Valid MRR: 0.0034988
+
+
+2021-12-12 10:50:02,481 - testrun_12_12_2021_10:46:45 - [INFO] - [E:2| 0]: Train Loss:0.68571,  Val MRR:0.0034988	testrun_12_12_2021_10:46:45
+2021-12-12 10:51:18,187 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:2]:  Training Loss:0.67
+
+2021-12-12 10:51:29,477 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 2 valid]: MRR: 0.0095587
+2021-12-12 10:51:29,822 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 2]: Training Loss: 0.66998, Valid MRR: 0.0095587
+
+
+2021-12-12 10:51:30,565 - testrun_12_12_2021_10:46:45 - [INFO] - [E:3| 0]: Train Loss:0.63224,  Val MRR:0.0095587	testrun_12_12_2021_10:46:45
+2021-12-12 10:52:46,843 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:3]:  Training Loss:0.6544
+
+2021-12-12 10:52:58,093 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 3 valid]: MRR: 0.013832
+2021-12-12 10:52:58,445 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 3]: Training Loss: 0.65439, Valid MRR: 0.013832
+
+
+2021-12-12 10:52:59,092 - testrun_12_12_2021_10:46:45 - [INFO] - [E:4| 0]: Train Loss:0.65126,  Val MRR:0.013832	testrun_12_12_2021_10:46:45
+2021-12-12 10:54:15,581 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:4]:  Training Loss:0.6448
+
+2021-12-12 10:54:26,549 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 4 valid]: MRR: 0.010427
+2021-12-12 10:54:26,549 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 4]: Training Loss: 0.6448, Valid MRR: 0.013832
+
+
+2021-12-12 10:54:27,414 - testrun_12_12_2021_10:46:45 - [INFO] - [E:5| 0]: Train Loss:0.63579,  Val MRR:0.013832	testrun_12_12_2021_10:46:45
+2021-12-12 10:55:43,487 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:5]:  Training Loss:0.6489
+
+2021-12-12 10:55:54,406 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 5 valid]: MRR: 0.018546
+2021-12-12 10:55:54,750 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 5]: Training Loss: 0.64892, Valid MRR: 0.018546
+
+
+2021-12-12 10:55:55,790 - testrun_12_12_2021_10:46:45 - [INFO] - [E:6| 0]: Train Loss:0.5791,  Val MRR:0.018546	testrun_12_12_2021_10:46:45
+2021-12-12 10:57:11,861 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:6]:  Training Loss:0.6378
+
+2021-12-12 10:57:22,876 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 6 valid]: MRR: 0.021138
+2021-12-12 10:57:23,224 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 6]: Training Loss: 0.63784, Valid MRR: 0.021138
+
+
+2021-12-12 10:57:24,292 - testrun_12_12_2021_10:46:45 - [INFO] - [E:7| 0]: Train Loss:0.63478,  Val MRR:0.021138	testrun_12_12_2021_10:46:45
+2021-12-12 10:58:40,093 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:7]:  Training Loss:0.6375
+
+2021-12-12 10:58:51,317 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 7 valid]: MRR: 0.010373
+2021-12-12 10:58:51,318 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 7]: Training Loss: 0.6375, Valid MRR: 0.021138
+
+
+2021-12-12 10:58:52,318 - testrun_12_12_2021_10:46:45 - [INFO] - [E:8| 0]: Train Loss:0.64509,  Val MRR:0.021138	testrun_12_12_2021_10:46:45
+2021-12-12 11:00:08,279 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:8]:  Training Loss:0.6364
+
+2021-12-12 11:00:19,502 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 8 valid]: MRR: 0.016581
+2021-12-12 11:00:19,502 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 8]: Training Loss: 0.63641, Valid MRR: 0.021138
+
+
+2021-12-12 11:00:20,180 - testrun_12_12_2021_10:46:45 - [INFO] - [E:9| 0]: Train Loss:0.62842,  Val MRR:0.021138	testrun_12_12_2021_10:46:45
+2021-12-12 11:01:36,078 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:9]:  Training Loss:0.6154
+
+2021-12-12 11:01:47,064 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 9 valid]: MRR: 0.020405
+2021-12-12 11:01:47,064 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 9]: Training Loss: 0.61537, Valid MRR: 0.021138
+
+
+2021-12-12 11:01:47,886 - testrun_12_12_2021_10:46:45 - [INFO] - [E:10| 0]: Train Loss:0.62337,  Val MRR:0.021138	testrun_12_12_2021_10:46:45
+2021-12-12 11:03:03,663 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:10]:  Training Loss:0.6219
+
+2021-12-12 11:03:14,922 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 10 valid]: MRR: 0.019031
+2021-12-12 11:03:14,922 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 10]: Training Loss: 0.62194, Valid MRR: 0.021138
+
+
+2021-12-12 11:03:15,753 - testrun_12_12_2021_10:46:45 - [INFO] - [E:11| 0]: Train Loss:0.59388,  Val MRR:0.021138	testrun_12_12_2021_10:46:45
+2021-12-12 11:04:31,761 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:11]:  Training Loss:0.6174
+
+2021-12-12 11:04:42,980 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 11 valid]: MRR: 0.024344
+2021-12-12 11:04:43,329 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 11]: Training Loss: 0.61744, Valid MRR: 0.024344
+
+
+2021-12-12 11:04:44,053 - testrun_12_12_2021_10:46:45 - [INFO] - [E:12| 0]: Train Loss:0.59597,  Val MRR:0.024344	testrun_12_12_2021_10:46:45
+2021-12-12 11:06:00,088 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:12]:  Training Loss:0.6192
+
+2021-12-12 11:06:11,102 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 12 valid]: MRR: 0.028306
+2021-12-12 11:06:11,448 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 12]: Training Loss: 0.61923, Valid MRR: 0.028306
+
+
+2021-12-12 11:06:12,539 - testrun_12_12_2021_10:46:45 - [INFO] - [E:13| 0]: Train Loss:0.64217,  Val MRR:0.028306	testrun_12_12_2021_10:46:45
+2021-12-12 11:07:28,258 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:13]:  Training Loss:0.6404
+
+2021-12-12 11:07:39,740 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 13 valid]: MRR: 0.012187
+2021-12-12 11:07:39,740 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 13]: Training Loss: 0.64037, Valid MRR: 0.028306
+
+
+2021-12-12 11:07:40,589 - testrun_12_12_2021_10:46:45 - [INFO] - [E:14| 0]: Train Loss:0.62805,  Val MRR:0.028306	testrun_12_12_2021_10:46:45
+2021-12-12 11:08:56,583 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:14]:  Training Loss:0.6194
+
+2021-12-12 11:09:07,867 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 14 valid]: MRR: 0.028814
+2021-12-12 11:09:08,216 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 14]: Training Loss: 0.61937, Valid MRR: 0.028814
+
+
+2021-12-12 11:09:08,943 - testrun_12_12_2021_10:46:45 - [INFO] - [E:15| 0]: Train Loss:0.62389,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:10:24,902 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:15]:  Training Loss:0.6103
+
+2021-12-12 11:10:36,175 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 15 valid]: MRR: 0.025373
+2021-12-12 11:10:36,176 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 15]: Training Loss: 0.6103, Valid MRR: 0.028814
+
+
+2021-12-12 11:10:37,005 - testrun_12_12_2021_10:46:45 - [INFO] - [E:16| 0]: Train Loss:0.57666,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:11:53,102 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:16]:  Training Loss:0.6062
+
+2021-12-12 11:12:04,308 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 16 valid]: MRR: 0.016709
+2021-12-12 11:12:04,308 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 16]: Training Loss: 0.60624, Valid MRR: 0.028814
+
+
+2021-12-12 11:12:05,209 - testrun_12_12_2021_10:46:45 - [INFO] - [E:17| 0]: Train Loss:0.6066,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:13:20,820 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:17]:  Training Loss:0.6234
+
+2021-12-12 11:13:32,219 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 17 valid]: MRR: 0.017995
+2021-12-12 11:13:32,219 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 17]: Training Loss: 0.62341, Valid MRR: 0.028814
+
+
+2021-12-12 11:13:32,976 - testrun_12_12_2021_10:46:45 - [INFO] - [E:18| 0]: Train Loss:0.62973,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:14:48,898 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:18]:  Training Loss:0.622
+
+2021-12-12 11:15:00,044 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 18 valid]: MRR: 0.0088056
+2021-12-12 11:15:00,044 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 18]: Training Loss: 0.62197, Valid MRR: 0.028814
+
+
+2021-12-12 11:15:00,857 - testrun_12_12_2021_10:46:45 - [INFO] - [E:19| 0]: Train Loss:0.57773,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:16:16,859 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:19]:  Training Loss:0.6235
+
+2021-12-12 11:16:27,774 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 19 valid]: MRR: 0.014426
+2021-12-12 11:16:27,774 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 19]: Training Loss: 0.6235, Valid MRR: 0.028814
+
+
+2021-12-12 11:16:28,614 - testrun_12_12_2021_10:46:45 - [INFO] - [E:20| 0]: Train Loss:0.62368,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:17:44,308 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:20]:  Training Loss:0.6061
+
+2021-12-12 11:17:55,584 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 20 valid]: MRR: 0.011566
+2021-12-12 11:17:55,584 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 20]: Training Loss: 0.60605, Valid MRR: 0.028814
+
+
+2021-12-12 11:17:56,529 - testrun_12_12_2021_10:46:45 - [INFO] - [E:21| 0]: Train Loss:0.63424,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:19:12,036 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:21]:  Training Loss:0.6378
+
+2021-12-12 11:19:23,004 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 21 valid]: MRR: 0.016542
+2021-12-12 11:19:23,005 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 21]: Training Loss: 0.63776, Valid MRR: 0.028814
+
+
+2021-12-12 11:19:24,132 - testrun_12_12_2021_10:46:45 - [INFO] - [E:22| 0]: Train Loss:0.58022,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:20:40,085 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:22]:  Training Loss:0.6179
+
+2021-12-12 11:20:51,065 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 22 valid]: MRR: 0.017752
+2021-12-12 11:20:51,065 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 22]: Training Loss: 0.61793, Valid MRR: 0.028814
+
+
+2021-12-12 11:20:51,957 - testrun_12_12_2021_10:46:45 - [INFO] - [E:23| 0]: Train Loss:0.72052,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:22:07,989 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:23]:  Training Loss:0.6326
+
+2021-12-12 11:22:18,813 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 23 valid]: MRR: 0.024297
+2021-12-12 11:22:18,814 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 23]: Training Loss: 0.63261, Valid MRR: 0.028814
+
+
+2021-12-12 11:22:19,522 - testrun_12_12_2021_10:46:45 - [INFO] - [E:24| 0]: Train Loss:0.64393,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:23:35,500 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:24]:  Training Loss:0.6292
+
+2021-12-12 11:23:46,388 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 24 valid]: MRR: 0.01761
+2021-12-12 11:23:46,388 - testrun_12_12_2021_10:46:45 - [INFO] - Gamma decay on saturation, updated value of gamma: 35.0
+2021-12-12 11:23:46,388 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 24]: Training Loss: 0.62923, Valid MRR: 0.028814
+
+
+2021-12-12 11:23:47,180 - testrun_12_12_2021_10:46:45 - [INFO] - [E:25| 0]: Train Loss:0.61594,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:25:02,776 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:25]:  Training Loss:0.6059
+
+2021-12-12 11:25:13,539 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 25 valid]: MRR: 0.014937
+2021-12-12 11:25:13,539 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 25]: Training Loss: 0.60588, Valid MRR: 0.028814
+
+
+2021-12-12 11:25:14,407 - testrun_12_12_2021_10:46:45 - [INFO] - [E:26| 0]: Train Loss:0.57665,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:26:29,878 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:26]:  Training Loss:0.6146
+
+2021-12-12 11:26:41,017 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 26 valid]: MRR: 0.02188
+2021-12-12 11:26:41,017 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 26]: Training Loss: 0.61455, Valid MRR: 0.028814
+
+
+2021-12-12 11:26:41,773 - testrun_12_12_2021_10:46:45 - [INFO] - [E:27| 0]: Train Loss:0.68961,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:27:59,169 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:27]:  Training Loss:0.6148
+
+2021-12-12 11:28:10,244 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 27 valid]: MRR: 0.014632
+2021-12-12 11:28:10,244 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 27]: Training Loss: 0.61484, Valid MRR: 0.028814
+
+
+2021-12-12 11:28:11,223 - testrun_12_12_2021_10:46:45 - [INFO] - [E:28| 0]: Train Loss:0.63477,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:29:28,395 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:28]:  Training Loss:0.6084
+
+2021-12-12 11:29:39,298 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 28 valid]: MRR: 0.020393
+2021-12-12 11:29:39,298 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 28]: Training Loss: 0.6084, Valid MRR: 0.028814
+
+
+2021-12-12 11:29:40,438 - testrun_12_12_2021_10:46:45 - [INFO] - [E:29| 0]: Train Loss:0.52853,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:30:57,181 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:29]:  Training Loss:0.6156
+
+2021-12-12 11:31:08,538 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 29 valid]: MRR: 0.012409
+2021-12-12 11:31:08,538 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 29]: Training Loss: 0.61564, Valid MRR: 0.028814
+
+
+2021-12-12 11:31:09,229 - testrun_12_12_2021_10:46:45 - [INFO] - [E:30| 0]: Train Loss:0.65495,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:32:25,366 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:30]:  Training Loss:0.6245
+
+2021-12-12 11:32:36,297 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 30 valid]: MRR: 0.017382
+2021-12-12 11:32:36,297 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 30]: Training Loss: 0.62448, Valid MRR: 0.028814
+
+
+2021-12-12 11:32:37,324 - testrun_12_12_2021_10:46:45 - [INFO] - [E:31| 0]: Train Loss:0.62382,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:33:54,285 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:31]:  Training Loss:0.6279
+
+2021-12-12 11:34:05,782 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 31 valid]: MRR: 0.010024
+2021-12-12 11:34:05,782 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 31]: Training Loss: 0.62791, Valid MRR: 0.028814
+
+
+2021-12-12 11:34:06,613 - testrun_12_12_2021_10:46:45 - [INFO] - [E:32| 0]: Train Loss:0.57784,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:35:23,827 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:32]:  Training Loss:0.629
+
+2021-12-12 11:35:34,817 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 32 valid]: MRR: 0.012506
+2021-12-12 11:35:34,817 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 32]: Training Loss: 0.62897, Valid MRR: 0.028814
+
+
+2021-12-12 11:35:35,706 - testrun_12_12_2021_10:46:45 - [INFO] - [E:33| 0]: Train Loss:0.64154,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:36:52,729 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:33]:  Training Loss:0.6068
+
+2021-12-12 11:37:04,345 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 33 valid]: MRR: 0.0167
+2021-12-12 11:37:04,345 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 33]: Training Loss: 0.60679, Valid MRR: 0.028814
+
+
+2021-12-12 11:37:05,091 - testrun_12_12_2021_10:46:45 - [INFO] - [E:34| 0]: Train Loss:0.58493,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:38:22,055 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:34]:  Training Loss:0.6322
+
+2021-12-12 11:38:32,951 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 34 valid]: MRR: 0.01592
+2021-12-12 11:38:32,951 - testrun_12_12_2021_10:46:45 - [INFO] - Gamma decay on saturation, updated value of gamma: 30.0
+2021-12-12 11:38:32,951 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 34]: Training Loss: 0.63225, Valid MRR: 0.028814
+
+
+2021-12-12 11:38:33,630 - testrun_12_12_2021_10:46:45 - [INFO] - [E:35| 0]: Train Loss:0.65773,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:39:50,799 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:35]:  Training Loss:0.6462
+
+2021-12-12 11:40:01,865 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 35 valid]: MRR: 0.017139
+2021-12-12 11:40:01,865 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 35]: Training Loss: 0.64618, Valid MRR: 0.028814
+
+
+2021-12-12 11:40:02,755 - testrun_12_12_2021_10:46:45 - [INFO] - [E:36| 0]: Train Loss:0.65338,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:41:20,805 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:36]:  Training Loss:0.6626
+
+2021-12-12 11:41:32,290 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 36 valid]: MRR: 0.0167
+2021-12-12 11:41:32,290 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 36]: Training Loss: 0.66261, Valid MRR: 0.028814
+
+
+2021-12-12 11:41:33,186 - testrun_12_12_2021_10:46:45 - [INFO] - [E:37| 0]: Train Loss:0.63343,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:42:50,136 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:37]:  Training Loss:0.6693
+
+2021-12-12 11:43:00,871 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 37 valid]: MRR: 0.0074418
+2021-12-12 11:43:00,871 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 37]: Training Loss: 0.66926, Valid MRR: 0.028814
+
+
+2021-12-12 11:43:01,991 - testrun_12_12_2021_10:46:45 - [INFO] - [E:38| 0]: Train Loss:0.66463,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:44:19,694 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:38]:  Training Loss:0.6839
+
+2021-12-12 11:44:31,030 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 38 valid]: MRR: 0.013422
+2021-12-12 11:44:31,030 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 38]: Training Loss: 0.68385, Valid MRR: 0.028814
+
+
+2021-12-12 11:44:32,033 - testrun_12_12_2021_10:46:45 - [INFO] - [E:39| 0]: Train Loss:0.65002,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:45:47,385 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:39]:  Training Loss:0.6816
+
+2021-12-12 11:45:58,578 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 39 valid]: MRR: 0.0085026
+2021-12-12 11:45:58,578 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 39]: Training Loss: 0.68162, Valid MRR: 0.028814
+
+
+2021-12-12 11:45:59,391 - testrun_12_12_2021_10:46:45 - [INFO] - [E:40| 0]: Train Loss:0.69236,  Val MRR:0.028814	testrun_12_12_2021_10:46:45
+2021-12-12 11:47:15,158 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch:40]:  Training Loss:0.6896
+
+2021-12-12 11:47:26,403 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 40 valid]: MRR: 0.0055903
+2021-12-12 11:47:26,403 - testrun_12_12_2021_10:46:45 - [INFO] - Early Stopping!!
+2021-12-12 11:47:26,403 - testrun_12_12_2021_10:46:45 - [INFO] - Loading best model, Evaluating on Test data
+2021-12-12 11:47:36,180 - testrun_12_12_2021_10:46:45 - [INFO] - [Epoch 0 test]: MRR: 0.027495
