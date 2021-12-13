@@ -87,7 +87,7 @@ class OnlyKGModel(BaseModel):
 
 	def forward(self,  source):
 		kg_node_emb = self.kg_embedding_layer()
-		org_emb_kg, all_nodes_emb	= self.KGBase.forward_base(kg_node_emb, self.org_kg_index, self.author_kg_index, self.drop, self.drop)#使用训练好的图谱，得到组织及作者表征
+		org_emb_kg, all_nodes_emb	= self.KGBase.forward_base(kg_node_emb, self.org_kg_index, self.drop, self.drop)#使用训练好的图谱，得到组织及作者表征
 
 		test_source_emb = torch.index_select(org_emb_kg, 0, source) #(n_source,emb)
 		all_target_emb = org_emb_kg

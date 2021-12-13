@@ -215,9 +215,6 @@ class CompGCN(nn.Module):
         self.p.gcn_dim = self.p.embed_dim if self.p.gcn_layer == 1 else self.p.gcn_dim  # gcn输出向量的维度
         self.device = self.edge_index.device
 
-        self.w_org= get_param((self.p.embed_dim, self.p.hyper_init_dim))
-        self.w_author = get_param((self.p.embed_dim, self.p.hyper_init_dim))
-
         if self.p.num_bases > 0:
             self.init_rel = get_param((self.p.num_bases, self.p.init_dim))
         else:
@@ -237,7 +234,7 @@ class CompGCN(nn.Module):
         self.register_parameter('bias', Parameter(torch.zeros(self.p.num_ent)))  # 这里注册了SELF.BIAS
 
     #取出所需org和author表征
-    def forward_base(self, kg_node_emb, org, author, drop1, drop2):
+    def forward_base(self, kg_node_emb, org, drop1, drop2):
 
         r = self.init_rel
         x, r = self.conv1(kg_node_emb, self.edge_index, self.edge_type, rel_embed=r)
@@ -246,9 +243,7 @@ class CompGCN(nn.Module):
         x = drop2(x) if self.p.gcn_layer == 2 else x
 
         org_emb = torch.index_select(x, 0, org)
-        author_emb = torch.index_select(x, 0, author)
 
         org_out = torch.matmul(org_emb,self.w_org)
-        author_out = torch.matmul(author_emb, self.w_author)
 
-        return org_out, author_out, x
+        return org_out, x
